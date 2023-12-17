@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1594547733 source:c:\jyoti pawase kpit\embeded c\led binking using timer\fuse.c
+	<avr/io.h>
+
+1594544133 source:f:\c+embedded c\embeded c\led binking using timer\fuse.c
+	<avr/io.h>
+
+1594546305 source:f:\c+embedded c\embeded c\led binking using timer\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+

@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1594708873 source:c:\jyoti pawase kpit\embeded c\act5\main.c
+	<stdint.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594713433 source:c:\jyoti pawase kpit\embeded c\act5\adc.c
+	"adc.h"
+
+1594651024 c:\jyoti pawase kpit\embeded c\act5\adc.h
+	<avr/iom328p.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594650900 source:c:\jyoti pawase kpit\embeded c\act5\gpio.c
+	"GPIO.h"
+
+1594651034 c:\jyoti pawase kpit\embeded c\act5\gpio.h
+	<avr/iom328p.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594713380 source:c:\jyoti pawase kpit\embeded c\act5\modestate.c
+	"ModeState.h"
+
+1594714031 c:\jyoti pawase kpit\embeded c\act5\modestate.h
+	<avr/iom328p.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594713990 source:c:\jyoti pawase kpit\embeded c\act5\appmode.c
+	"AppMode.h"
+	"adc.h"
+
+1594651038 c:\jyoti pawase kpit\embeded c\act5\appmode.h
+	<avr/iom328p.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+

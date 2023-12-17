@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1594820857 source:c:\jyoti pawase kpit\embeded c\case_study\fuse.c
+	<avr/io.h>
+
+1594892596 source:c:\jyoti pawase kpit\embeded c\case_study\gpio.c
+	"GPIO.h"
+	<avr/io.h>
+	<util/delay.h>
+	"WIPER_AUTO.h"
+	"WIPER_MANUAL.h"
+
+1594884330 c:\jyoti pawase kpit\embeded c\case_study\gpio.h
+	"GPIO.h"
+
+1594892790 source:c:\jyoti pawase kpit\embeded c\case_study\main.c
+	"GPIO.h"
+	"WIPER_AUTO.h"
+	"WIPER_MANUAL.h"
+	<stdint.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594882197 source:c:\jyoti pawase kpit\embeded c\case_study\wiper_auto.c
+	"GPIO.h"
+	"WIPER_AUTO.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594824447 c:\jyoti pawase kpit\embeded c\case_study\wiper_auto.h
+	"GPIO.h"
+	"WIPER_AUTO.h"
+
+1594892660 source:c:\jyoti pawase kpit\embeded c\case_study\wiper_manual.c
+	"WIPER_AUTO.h"
+	"WIPER_MANUAL.h"
+	"GPIO.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594823778 c:\jyoti pawase kpit\embeded c\case_study\wiper_manual.h
+	"GPIO.h"
+	"WIPER_MANUAL.h"
+

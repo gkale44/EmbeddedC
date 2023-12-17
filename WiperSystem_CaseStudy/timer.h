@@ -1,0 +1,10 @@
+#ifndef TIMER_H_INCLUDED
+#define TIMER_H_INCLUDED
+
+#define START_TIMER TIMSK2 |= (1<<TOIE2)
+#define STOP_TIMER TIMSK2 |= 0x00
+void TIMER_INIT();
+
+#endif // TIMER_H_INCLUDED
+
+

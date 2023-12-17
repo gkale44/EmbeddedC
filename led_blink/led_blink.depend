@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1594544739 source:c:\jyoti pawase kpit\embeded c\led_blink\fuse.c
+	<avr/io.h>
+
+1594541139 source:f:\c+embedded c\embeded c\led_blink\fuse.c
+	<avr/io.h>
+
+1653333292 source:f:\c+embedded c\embeded c\led_blink\main.c
+	<stdint.h>
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+

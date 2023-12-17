@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1594978016 source:c:\jyoti pawase kpit\embeded c\interrupt_lab_demo\fuse.c
+	<avr/io.h>
+
+1594974416 source:f:\c+embedded c\embeded c\interrupt_lab_demo\fuse.c
+	<avr/io.h>
+
+1594974644 source:f:\c+embedded c\embeded c\interrupt_lab_demo\main.c
+	<stdint.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+

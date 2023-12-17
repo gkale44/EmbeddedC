@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1594620613 source:c:\jyoti pawase kpit\embeded c\activity 5\fuse.c
+	<avr/io.h>
+
+1594627061 source:c:\jyoti pawase kpit\embeded c\activity 5\gpio.c
+	"gpio.h"
+	<avr/io.h>
+
+1594629851 c:\jyoti pawase kpit\embeded c\activity 5\gpio.h
+	"GPIO.h"
+
+1594636778 source:c:\jyoti pawase kpit\embeded c\activity 5\appmode.c
+	"ADC.h"
+	"GPIO.h"
+
+1594630815 c:\jyoti pawase kpit\embeded c\activity 5\adc.h
+	"GPIO.h"
+	"ADC.h"
+
+1594637133 source:c:\jyoti pawase kpit\embeded c\activity 5\pwm.c
+
+1594643972 source:c:\jyoti pawase kpit\embeded c\activity 5\adc.c
+	"ADC.h"
+	<avr/io.h>
+
+1594644123 source:c:\jyoti pawase kpit\embeded c\activity 5\modestate.c
+	"ADC.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594644166 source:c:\jyoti pawase kpit\embeded c\activity 5\main.c
+	"GPIO.h"
+	"AppMode.h"
+	"ModeState.h"
+	"ADC.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594637097 c:\jyoti pawase kpit\embeded c\activity 5\appmode.h
+	"GPIO.h"
+	"ADC.h"
+
+1594632275 c:\jyoti pawase kpit\embeded c\activity 5\modestate.h
+	"ADC.h"
+

@@ -1,0 +1,48 @@
+<circuit type="simulide_0.1" noLinStep="10" animate="0" noLinAcc="5" speed="1000000" reactStep="50">
+ 
+Probe-13: 
+<item objectName="Probe-13" rotation="-45" Show_volt="true" valLabely="0" y="-332" id="Probe-13" hflip="1" valLabelx="16" PlotterCh="0" itemtype="Probe" labelx="16" vflip="1" labelrot="45" Show_id="false" x="-284" labely="-16" valLabRot="45"/>
+ 
+Probe-12: 
+<item objectName="Probe-12" rotation="-45" Show_volt="true" valLabely="0" y="-428" id="Probe-12" hflip="1" valLabelx="16" PlotterCh="0" itemtype="Probe" labelx="16" vflip="1" labelrot="45" Show_id="false" x="-324" labely="-16" valLabRot="45"/>
+ 
+Ground-6: 
+<item objectName="Ground-6" rotation="0" valLabely="0" y="-276" id="Ground-6" hflip="1" valLabelx="0" itemtype="Ground" labelx="-16" vflip="1" labelrot="0" Show_id="false" x="-572" labely="-24" valLabRot="0"/>
+ 
+Ground-5: 
+<item objectName="Ground-5" rotation="0" valLabely="0" y="-380" id="Ground-5" hflip="1" valLabelx="0" itemtype="Ground" labelx="-16" vflip="1" labelrot="0" Show_id="false" x="-572" labely="-24" valLabRot="0"/>
+ 
+Resistor-4: 
+<item itemtype="Resistor" labelx="-12" labely="-24" Show_res="true" rotation="0" valLabRot="0" vflip="1" x="-340" objectName="Resistor-4" id="Resistor-4" Show_id="false" y="-316" labelrot="0" valLabely="6" Resistance="100" hflip="1" Unit=" O" valLabelx="-16"/>
+ 
+Led-3: 
+<item itemtype="Led" Color="0" labelx="-16" labely="-24" rotation="-180" valLabRot="0" vflip="1" x="-460" objectName="Led-3" Threshold="2.3999999999999999" id="Led-3" Show_id="false" MaxCurrent="0.029999999999999999" y="-316" Grounded="false" labelrot="0" valLabely="0" hflip="1" Resistance="0.59999999999999998" valLabelx="0"/>
+ 
+Switch-2: 
+<item itemtype="Switch" labelx="-16" labely="-24" Poles="1" Norm_Close="false" rotation="0" valLabRot="0" vflip="1" DT="false" x="-404" objectName="Switch-2" id="Switch-2" Show_id="false" y="-412" labelrot="0" valLabely="0" hflip="1" valLabelx="0"/>
+ 
+atmega328-1: 
+<item itemtype="AVR" labelx="0" labely="-20" Ser_Port="false" rotation="0" valLabRot="0" vflip="1" Ser_Monitor="false" x="-212" objectName="atmega328-1" id="atmega328-1" Show_id="true" y="-428" labelrot="0" valLabely="0" hflip="1" Program="" valLabelx="0" Mhz="16"/>
+ 
+Connector-7: 
+<item itemtype="Connector" labelx="-16" startpinid="atmega328-1-PD3" labely="-24" pointList="-220,-388,-300,-388,-300,-412,-388,-412" rotation="0" valLabRot="0" vflip="1" x="-220" objectName="Connector-7" id="Connector-7" Show_id="false" y="-388" labelrot="0" enodeid="enode-7" valLabely="0" hflip="1" valLabelx="0" endpinid="Switch-2-switch0pinN"/>
+ 
+Connector-8: 
+<item itemtype="Connector" labelx="-16" startpinid="Switch-2-pinP0" labely="-24" pointList="-420,-412,-572,-412,-572,-396" rotation="0" valLabRot="0" vflip="1" x="-420" objectName="Connector-8" id="Connector-8" Show_id="false" y="-412" labelrot="0" enodeid="enode-8" valLabely="0" hflip="1" valLabelx="0" endpinid="Ground-5-Gnd"/>
+ 
+Connector-9: 
+<item itemtype="Connector" labelx="-16" startpinid="Ground-6-Gnd" labely="-24" pointList="-572,-292,-572,-316,-476,-316" rotation="0" valLabRot="0" vflip="1" x="-572" objectName="Connector-9" id="Connector-9" Show_id="false" y="-292" labelrot="0" enodeid="enode-9" valLabely="0" hflip="1" valLabelx="0" endpinid="Led-3-rPin"/>
+ 
+Connector-10: 
+<item itemtype="Connector" labelx="-16" startpinid="Led-3-lPin" labely="-24" pointList="-444,-316,-356,-316" rotation="0" valLabRot="0" vflip="1" x="-444" objectName="Connector-10" id="Connector-10" Show_id="false" y="-316" labelrot="0" enodeid="enode-10" valLabely="0" hflip="1" valLabelx="0" endpinid="Resistor-4-lPin"/>
+ 
+Connector-11: 
+<item itemtype="Connector" labelx="-16" startpinid="Resistor-4-rPin" labely="-24" pointList="-324,-316,-244,-316,-244,-324,-220,-324" rotation="0" valLabRot="0" vflip="1" x="-324" objectName="Connector-11" id="Connector-11" Show_id="false" y="-316" labelrot="0" enodeid="enode-11" valLabely="0" hflip="1" valLabelx="0" endpinid="atmega328-1-PD7"/>
+ 
+PlotterWidget: 
+<item mouseTracking="false" frameGeometry="" sizeIncrement="" accessibleDescription="" frameSize="" palette="" windowIcon="" minimumWidth="200" autoFillBackground="false" windowModality="0" maximumSize="" y="0" isActiveWindow="true" cursor="" sizePolicy="" sizeHint="" maximumWidth="1000" toolTipDuration="-1" contextMenuPolicy="1" width="200" maximized="false" x="0" focusPolicy="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" fullScreen="false" minimumSize="" updatesEnabled="true" modal="false" windowTitle="" windowOpacity="1" rect="" windowModified="false" geometry="" minimumSizeHint="" objectName="PlotterWidget" itemtype="Plotter" height="200" acceptDrops="false" layoutDirection="0" normalGeometry="" maximumHeight="200" baseSize="" accessibleName="" childrenRect="" statusTip="" MinVolt="-500" minimumHeight="200" toolTip="" windowIconText="" focus="false" visible="false" locale="" MaxVolt="500" minimized="false" size="" windowFilePath="" inputMethodHints="0" styleSheet="" childrenRegion="" enabled="true" pos="" whatsThis=""/>
+ 
+SerialPortWidget: 
+<item mouseTracking="false" frameGeometry="" sizeIncrement="" accessibleDescription="" frameSize="" palette="" windowIcon="" minimumWidth="0" autoFillBackground="false" windowModality="0" maximumSize="" y="0" isActiveWindow="true" cursor="" sizePolicy="" sizeHint="" SettingsProp=",0,3,0,0,0" maximumWidth="450" toolTipDuration="-1" contextMenuPolicy="1" width="313" maximized="false" x="0" focusPolicy="0" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" fullScreen="false" minimumSize="" updatesEnabled="true" modal="false" windowTitle="Settings" windowOpacity="1" rect="" windowModified="false" geometry="" minimumSizeHint="" objectName="SerialPortWidget" itemtype="SerialPort" height="141" acceptDrops="false" layoutDirection="0" normalGeometry="" maximumHeight="170" baseSize="" accessibleName="" childrenRect="" statusTip="" minimumHeight="0" toolTip="" windowIconText="" focus="false" visible="false" locale="" minimized="false" size="" windowFilePath="" inputMethodHints="0" styleSheet="" childrenRegion="" enabled="true" pos="" whatsThis=""/>
+ 
+</circuit>

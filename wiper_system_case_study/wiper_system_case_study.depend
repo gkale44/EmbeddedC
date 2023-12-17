@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1594737213 source:c:\jyoti pawase kpit\embeded c\wiper_system_case_study\fuse.c
+	<avr/io.h>
+
+1594817426 source:c:\jyoti pawase kpit\embeded c\wiper_system_case_study\manual_mode.c
+	"MANUAL_MODE.h"
+	"GPIO.h"
+	"ADC.h"
+	<stdint.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594795668 c:\jyoti pawase kpit\embeded c\wiper_system_case_study\manual_mode.h
+	"MANUAL_MODE.h"
+
+1594817858 source:c:\jyoti pawase kpit\embeded c\wiper_system_case_study\auto_mode.c
+	"GPIO.h"
+	"AUTO_MODE.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594800046 c:\jyoti pawase kpit\embeded c\wiper_system_case_study\gpio.h
+	"Timer.h"
+	"GPIO.h"
+
+1594798518 c:\jyoti pawase kpit\embeded c\wiper_system_case_study\timer.h
+	"Timer.h"
+	"AUTO_MODE.h"
+
+1594798627 c:\jyoti pawase kpit\embeded c\wiper_system_case_study\auto_mode.h
+	"AUTO_MODE.h"
+
+1594798686 source:c:\jyoti pawase kpit\embeded c\wiper_system_case_study\gpio.c
+	"GPIO.h"
+	<avr/io.h>
+	<util/delay.h>
+
+1594817533 source:c:\jyoti pawase kpit\embeded c\wiper_system_case_study\timer.c
+	"AUTO_MODE.h"
+	"Timer.h"
+	<avr/interrupt.h>
+	<avr/io.h>
+	<util/delay.h>
+
+1594815033 source:c:\jyoti pawase kpit\embeded c\wiper_system_case_study\main.c
+	"Timer.h"
+	"GPIO.h"
+	"AUTO_MODE.h"
+	"MANUAL_MODE.h"
+	"ADC.h"
+	<stdint.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594801817 c:\jyoti pawase kpit\embeded c\wiper_system_case_study\adc.h
+	"ADC.h"
+	"Timer.h"
+
+1594816918 source:c:\jyoti pawase kpit\embeded c\wiper_system_case_study\adc.c
+	"ADC.h"
+	"Timer.h"
+	<avr/interrupt.h>
+	<avr/io.h>
+

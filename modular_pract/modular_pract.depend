@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1594569432 source:c:\jyoti pawase kpit\embeded c\modular_pract\fuse.c
+	<avr/io.h>
+
+1594613553 source:c:\jyoti pawase kpit\embeded c\modular_pract\gpio.c
+	"GPIO.h"
+	<avr/io.h>
+
+1594612795 c:\jyoti pawase kpit\embeded c\modular_pract\gpio.h
+
+1594619308 source:c:\jyoti pawase kpit\embeded c\modular_pract\switch1.c
+	<avr/interrupt.h>
+	"GPIO.h"
+	"switch1.h"
+
+1594612792 c:\jyoti pawase kpit\embeded c\modular_pract\switch1.h
+	"GPIO.h"
+
+1594612978 source:c:\jyoti pawase kpit\embeded c\modular_pract\switch2.c
+	<avr/interrupt.h>
+	<util/delay.h>
+	"GPIO.h"
+	"switch2.h"
+
+1594612788 c:\jyoti pawase kpit\embeded c\modular_pract\switch2.h
+	"GPIO.h"
+
+1594613035 source:c:\jyoti pawase kpit\embeded c\modular_pract\switch3.c
+	<avr/interrupt.h>
+	<util/delay.h>
+	"GPIO.h"
+	"switch3.h"
+
+1594612807 c:\jyoti pawase kpit\embeded c\modular_pract\switch3.h
+	"GPIO.h"
+

@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1594973472 source:c:\jyoti pawase kpit\embeded c\gpio_practice\fuse.c
+	<avr/io.h>
+

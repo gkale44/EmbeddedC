@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1594895913 source:c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\fuse.c
+	<avr/io.h>
+
+1594897607 source:c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\gpio.c
+	<avr/io.h>
+	"gpio.h"
+
+1594897615 c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\gpio.h
+
+1594897622 source:c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\interrupt.c
+	<avr/io.h>
+	"interrupt.h"
+
+1594897627 c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\interrupt.h
+
+1594897738 source:c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"gpio.h"
+	"pwm.h"
+	"interrupt.h"
+	"adc.h"
+	"timer.h"
+
+1594897637 c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\pwm.h
+
+1594897694 c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\adc.h
+
+1594897645 c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\timer.h
+
+1594897632 source:c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\pwm.c
+	<avr/io.h>
+	"pwm.h"
+
+1594897641 source:c:\jyoti pawase kpit\embeded c\wipersystem_casestudy\timer.c
+	<avr/io.h>
+	"timer.h"
+

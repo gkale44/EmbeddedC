@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1594872170 source:c:\jyoti pawase kpit\embeded c\wiper_system\fuse.c
+	<avr/io.h>
+
+1594831822 source:c:\jyoti pawase kpit\embeded c\wiper_system\gpio.c
+	"GPIO.h"
+
+1594831655 c:\jyoti pawase kpit\embeded c\wiper_system\gpio.h
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1594873188 source:c:\jyoti pawase kpit\embeded c\wiper_system\automode.c
+	"GPIO.h"
+
+1594873339 source:c:\jyoti pawase kpit\embeded c\wiper_system\main.c
+	"GPIO.h"
+
+1594872847 source:c:\jyoti pawase kpit\embeded c\wiper_system\manualmode.c
+	"GPIO.h"
+
+1594872838 source:c:\jyoti pawase kpit\embeded c\wiper_system\wipermode.c
+	"GPIO.h"
+

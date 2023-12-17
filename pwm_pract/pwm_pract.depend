@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1594652516 source:c:\jyoti pawase kpit\embeded c\pwm_pract\fuse.c
+	<avr/io.h>
+
+1594652707 source:c:\jyoti pawase kpit\embeded c\pwm_pract\main.c
+	<stdint.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
